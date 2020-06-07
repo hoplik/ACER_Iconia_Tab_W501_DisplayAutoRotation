@@ -1,0 +1,2309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;ControltabPage.Name" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;ControltabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ControltabPage.Parent" xml:space="preserve">
+    <value>Control_tabPage</value>
+  </data>
+  <data name="&gt;&gt;ControltabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Settings_tabPage.Name" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Settings_tabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings_tabPage.Parent" xml:space="preserve">
+    <value>Control_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Settings_tabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>Control_tabPage</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Control_tabPage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Control_tabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Control_tabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>632, 424</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Control_tabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Control_tabPage.Name" xml:space="preserve">
+    <value>Control_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Control_tabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Control_tabPage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Control_tabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Z_Corr_button.Name" xml:space="preserve">
+    <value>Z_Corr_button</value>
+  </data>
+  <data name="&gt;&gt;Z_Corr_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z_Corr_button.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Z_Corr_button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Y_Corr_button.Name" xml:space="preserve">
+    <value>Y_Corr_button</value>
+  </data>
+  <data name="&gt;&gt;Y_Corr_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Y_Corr_button.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Y_Corr_button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;X_Corr_button.Name" xml:space="preserve">
+    <value>X_Corr_button</value>
+  </data>
+  <data name="&gt;&gt;X_Corr_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;X_Corr_button.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;X_Corr_button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Corr_button.Name" xml:space="preserve">
+    <value>Corr_button</value>
+  </data>
+  <data name="&gt;&gt;Corr_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Corr_button.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Corr_button.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Control_Vert_label.Name" xml:space="preserve">
+    <value>Control_Vert_label</value>
+  </data>
+  <data name="&gt;&gt;Control_Vert_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Control_Vert_label.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Control_Vert_label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Control_Hor_label.Name" xml:space="preserve">
+    <value>Control_Hor_label</value>
+  </data>
+  <data name="&gt;&gt;Control_Hor_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Control_Hor_label.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Control_Hor_label.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Cont_Vert_pictureBox.Name" xml:space="preserve">
+    <value>Cont_Vert_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;Cont_Vert_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cont_Vert_pictureBox.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Cont_Vert_pictureBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Cont_Hor_pictureBox.Name" xml:space="preserve">
+    <value>Cont_Hor_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;Cont_Hor_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cont_Hor_pictureBox.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Cont_Hor_pictureBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Corr_label.Name" xml:space="preserve">
+    <value>Corr_label</value>
+  </data>
+  <data name="&gt;&gt;Corr_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Corr_label.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Corr_label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label_Y.Name" xml:space="preserve">
+    <value>label_Y</value>
+  </data>
+  <data name="&gt;&gt;label_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Y.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;label_Y.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label_Z.Name" xml:space="preserve">
+    <value>label_Z</value>
+  </data>
+  <data name="&gt;&gt;label_Z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Z.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;label_Z.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label_X.Name" xml:space="preserve">
+    <value>label_X</value>
+  </data>
+  <data name="&gt;&gt;label_X.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_X.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;label_X.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Z_progressBar.Name" xml:space="preserve">
+    <value>Z_progressBar</value>
+  </data>
+  <data name="&gt;&gt;Z_progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z_progressBar.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Z_progressBar.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Y_progressBar.Name" xml:space="preserve">
+    <value>Y_progressBar</value>
+  </data>
+  <data name="&gt;&gt;Y_progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Y_progressBar.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Y_progressBar.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;X_progressBar.Name" xml:space="preserve">
+    <value>X_progressBar</value>
+  </data>
+  <data name="&gt;&gt;X_progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;X_progressBar.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;X_progressBar.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ControltabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="ControltabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="ControltabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 398</value>
+  </data>
+  <data name="ControltabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ControltabPage.Text" xml:space="preserve">
+    <value>Контроль поворота дисплея</value>
+  </data>
+  <data name="&gt;&gt;ControltabPage.Name" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;ControltabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ControltabPage.Parent" xml:space="preserve">
+    <value>Control_tabPage</value>
+  </data>
+  <data name="&gt;&gt;ControltabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Z_Corr_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Z_Corr_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 167</value>
+  </data>
+  <data name="Z_Corr_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="Z_Corr_button.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Z_Corr_button.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Z_Corr_button.Name" xml:space="preserve">
+    <value>Z_Corr_button</value>
+  </data>
+  <data name="&gt;&gt;Z_Corr_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z_Corr_button.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Z_Corr_button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Y_Corr_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Y_Corr_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 113</value>
+  </data>
+  <data name="Y_Corr_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="Y_Corr_button.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Y_Corr_button.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Y_Corr_button.Name" xml:space="preserve">
+    <value>Y_Corr_button</value>
+  </data>
+  <data name="&gt;&gt;Y_Corr_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Y_Corr_button.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Y_Corr_button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="X_Corr_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="X_Corr_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 54</value>
+  </data>
+  <data name="X_Corr_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="X_Corr_button.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="X_Corr_button.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;X_Corr_button.Name" xml:space="preserve">
+    <value>X_Corr_button</value>
+  </data>
+  <data name="&gt;&gt;X_Corr_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;X_Corr_button.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;X_Corr_button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Corr_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Corr_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 16</value>
+  </data>
+  <data name="Corr_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="Corr_button.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Corr_button.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Corr_button.Name" xml:space="preserve">
+    <value>Corr_button</value>
+  </data>
+  <data name="&gt;&gt;Corr_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Corr_button.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Corr_button.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Control_Vert_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Control_Vert_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Control_Vert_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 365</value>
+  </data>
+  <data name="Control_Vert_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Control_Vert_label.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Control_Vert_label.Name" xml:space="preserve">
+    <value>Control_Vert_label</value>
+  </data>
+  <data name="&gt;&gt;Control_Vert_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Control_Vert_label.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Control_Vert_label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Control_Hor_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Control_Hor_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Control_Hor_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 365</value>
+  </data>
+  <data name="Control_Hor_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Control_Hor_label.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Control_Hor_label.Name" xml:space="preserve">
+    <value>Control_Hor_label</value>
+  </data>
+  <data name="&gt;&gt;Control_Hor_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Control_Hor_label.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Control_Hor_label.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 365</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Горизонталь (Поворот)</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 365</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Вертикаль (Наклон)</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Cont_Vert_pictureBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Cont_Vert_pictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cont_Vert_pictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 254</value>
+  </data>
+  <data name="Cont_Vert_pictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 98</value>
+  </data>
+  <data name="Cont_Vert_pictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Cont_Vert_pictureBox.Name" xml:space="preserve">
+    <value>Cont_Vert_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;Cont_Vert_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cont_Vert_pictureBox.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Cont_Vert_pictureBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Cont_Hor_pictureBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Cont_Hor_pictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cont_Hor_pictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 254</value>
+  </data>
+  <data name="Cont_Hor_pictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 98</value>
+  </data>
+  <data name="Cont_Hor_pictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Cont_Hor_pictureBox.Name" xml:space="preserve">
+    <value>Cont_Hor_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;Cont_Hor_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cont_Hor_pictureBox.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Cont_Hor_pictureBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Corr_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Corr_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Corr_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 23</value>
+  </data>
+  <data name="Corr_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 13</value>
+  </data>
+  <data name="Corr_label.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Corr_label.Text" xml:space="preserve">
+    <value>С учётом корректировки</value>
+  </data>
+  <data name="&gt;&gt;Corr_label.Name" xml:space="preserve">
+    <value>Corr_label</value>
+  </data>
+  <data name="&gt;&gt;Corr_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Corr_label.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Corr_label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label_Y.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_Y.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 115</value>
+  </data>
+  <data name="label_Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="label_Y.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label_Y.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="&gt;&gt;label_Y.Name" xml:space="preserve">
+    <value>label_Y</value>
+  </data>
+  <data name="&gt;&gt;label_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Y.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;label_Y.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label_Z.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_Z.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 167</value>
+  </data>
+  <data name="label_Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="label_Z.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label_Z.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="&gt;&gt;label_Z.Name" xml:space="preserve">
+    <value>label_Z</value>
+  </data>
+  <data name="&gt;&gt;label_Z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Z.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;label_Z.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label_X.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_X.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 57</value>
+  </data>
+  <data name="label_X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="label_X.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label_X.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;label_X.Name" xml:space="preserve">
+    <value>label_X</value>
+  </data>
+  <data name="&gt;&gt;label_X.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_X.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;label_X.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Z_progressBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Z_progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 167</value>
+  </data>
+  <data name="Z_progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 30</value>
+  </data>
+  <data name="Z_progressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Z_progressBar.Name" xml:space="preserve">
+    <value>Z_progressBar</value>
+  </data>
+  <data name="&gt;&gt;Z_progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z_progressBar.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Z_progressBar.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Y_progressBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Y_progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 115</value>
+  </data>
+  <data name="Y_progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 30</value>
+  </data>
+  <data name="Y_progressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Y_progressBar.Name" xml:space="preserve">
+    <value>Y_progressBar</value>
+  </data>
+  <data name="&gt;&gt;Y_progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Y_progressBar.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;Y_progressBar.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="X_progressBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="X_progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 57</value>
+  </data>
+  <data name="X_progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 30</value>
+  </data>
+  <data name="X_progressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;X_progressBar.Name" xml:space="preserve">
+    <value>X_progressBar</value>
+  </data>
+  <data name="&gt;&gt;X_progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;X_progressBar.Parent" xml:space="preserve">
+    <value>ControltabPage</value>
+  </data>
+  <data name="&gt;&gt;X_progressBar.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Curr_Anim_checkBox.Name" xml:space="preserve">
+    <value>Curr_Anim_checkBox</value>
+  </data>
+  <data name="&gt;&gt;Curr_Anim_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Curr_Anim_checkBox.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Curr_Anim_checkBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Freeze_label.Name" xml:space="preserve">
+    <value>Freeze_label</value>
+  </data>
+  <data name="&gt;&gt;Freeze_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Freeze_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Freeze_label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Max_Freeze_label.Name" xml:space="preserve">
+    <value>Max_Freeze_label</value>
+  </data>
+  <data name="&gt;&gt;Max_Freeze_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Max_Freeze_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Max_Freeze_label.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Min_Freeze_label.Name" xml:space="preserve">
+    <value>Min_Freeze_label</value>
+  </data>
+  <data name="&gt;&gt;Min_Freeze_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Min_Freeze_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Min_Freeze_label.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Max_Sens_label.Name" xml:space="preserve">
+    <value>Max_Sens_label</value>
+  </data>
+  <data name="&gt;&gt;Max_Sens_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Max_Sens_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Max_Sens_label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Min_Sens_label.Name" xml:space="preserve">
+    <value>Min_Sens_label</value>
+  </data>
+  <data name="&gt;&gt;Min_Sens_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Min_Sens_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Min_Sens_label.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Max_Vert_label.Name" xml:space="preserve">
+    <value>Max_Vert_label</value>
+  </data>
+  <data name="&gt;&gt;Max_Vert_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Max_Vert_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Max_Vert_label.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Min_Vert_label.Name" xml:space="preserve">
+    <value>Min_Vert_label</value>
+  </data>
+  <data name="&gt;&gt;Min_Vert_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Min_Vert_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Min_Vert_label.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Max_Hor_label.Name" xml:space="preserve">
+    <value>Max_Hor_label</value>
+  </data>
+  <data name="&gt;&gt;Max_Hor_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Max_Hor_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Max_Hor_label.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Min_Hor_label.Name" xml:space="preserve">
+    <value>Min_Hor_label</value>
+  </data>
+  <data name="&gt;&gt;Min_Hor_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Min_Hor_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Min_Hor_label.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Vert_vector_label.Name" xml:space="preserve">
+    <value>Vert_vector_label</value>
+  </data>
+  <data name="&gt;&gt;Vert_vector_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Vert_vector_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Vert_vector_label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Smooth_count_label.Name" xml:space="preserve">
+    <value>Smooth_count_label</value>
+  </data>
+  <data name="&gt;&gt;Smooth_count_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Smooth_count_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Smooth_count_label.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Sens_count_label.Name" xml:space="preserve">
+    <value>Sens_count_label</value>
+  </data>
+  <data name="&gt;&gt;Sens_count_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sens_count_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Sens_count_label.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Hor_vector_label.Name" xml:space="preserve">
+    <value>Hor_vector_label</value>
+  </data>
+  <data name="&gt;&gt;Hor_vector_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hor_vector_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Hor_vector_label.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Sens_label.Name" xml:space="preserve">
+    <value>Sens_label</value>
+  </data>
+  <data name="&gt;&gt;Sens_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sens_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Sens_label.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Vert_label.Name" xml:space="preserve">
+    <value>Vert_label</value>
+  </data>
+  <data name="&gt;&gt;Vert_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Vert_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Vert_label.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Hor_label.Name" xml:space="preserve">
+    <value>Hor_label</value>
+  </data>
+  <data name="&gt;&gt;Hor_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hor_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Hor_label.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Reset_Settings_button.Name" xml:space="preserve">
+    <value>Reset_Settings_button</value>
+  </data>
+  <data name="&gt;&gt;Reset_Settings_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Reset_Settings_button.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Reset_Settings_button.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Sens_trackBar.Name" xml:space="preserve">
+    <value>Sens_trackBar</value>
+  </data>
+  <data name="&gt;&gt;Sens_trackBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sens_trackBar.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Sens_trackBar.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Vert_trackBar.Name" xml:space="preserve">
+    <value>Vert_trackBar</value>
+  </data>
+  <data name="&gt;&gt;Vert_trackBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Vert_trackBar.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Vert_trackBar.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Hor_trackBar.Name" xml:space="preserve">
+    <value>Hor_trackBar</value>
+  </data>
+  <data name="&gt;&gt;Hor_trackBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hor_trackBar.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Hor_trackBar.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Reestr_checkBox.Name" xml:space="preserve">
+    <value>Reestr_checkBox</value>
+  </data>
+  <data name="&gt;&gt;Reestr_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Reestr_checkBox.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Reestr_checkBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Settings_tabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Settings_tabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Settings_tabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 398</value>
+  </data>
+  <data name="Settings_tabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Settings_tabPage.Text" xml:space="preserve">
+    <value>Настройки поворота дисплея</value>
+  </data>
+  <data name="&gt;&gt;Settings_tabPage.Name" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Settings_tabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings_tabPage.Parent" xml:space="preserve">
+    <value>Control_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Settings_tabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Curr_Anim_checkBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Curr_Anim_checkBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Curr_Anim_checkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 370</value>
+  </data>
+  <data name="Curr_Anim_checkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 17</value>
+  </data>
+  <data name="Curr_Anim_checkBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="Curr_Anim_checkBox.Text" xml:space="preserve">
+    <value>Включить анимацию текущего состояния</value>
+  </data>
+  <data name="&gt;&gt;Curr_Anim_checkBox.Name" xml:space="preserve">
+    <value>Curr_Anim_checkBox</value>
+  </data>
+  <data name="&gt;&gt;Curr_Anim_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Curr_Anim_checkBox.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Curr_Anim_checkBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Freeze_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Freeze_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Freeze_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 102</value>
+  </data>
+  <data name="Freeze_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Freeze_label.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;Freeze_label.Name" xml:space="preserve">
+    <value>Freeze_label</value>
+  </data>
+  <data name="&gt;&gt;Freeze_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Freeze_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Freeze_label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Max_Freeze_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Max_Freeze_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Max_Freeze_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 118</value>
+  </data>
+  <data name="Max_Freeze_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Max_Freeze_label.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Max_Freeze_label.Name" xml:space="preserve">
+    <value>Max_Freeze_label</value>
+  </data>
+  <data name="&gt;&gt;Max_Freeze_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Max_Freeze_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Max_Freeze_label.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Min_Freeze_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Min_Freeze_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Min_Freeze_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 118</value>
+  </data>
+  <data name="Min_Freeze_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Min_Freeze_label.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;Min_Freeze_label.Name" xml:space="preserve">
+    <value>Min_Freeze_label</value>
+  </data>
+  <data name="&gt;&gt;Min_Freeze_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Min_Freeze_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Min_Freeze_label.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Max_Sens_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Max_Sens_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Max_Sens_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 313</value>
+  </data>
+  <data name="Max_Sens_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Max_Sens_label.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;Max_Sens_label.Name" xml:space="preserve">
+    <value>Max_Sens_label</value>
+  </data>
+  <data name="&gt;&gt;Max_Sens_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Max_Sens_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Max_Sens_label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Min_Sens_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Min_Sens_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Min_Sens_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 315</value>
+  </data>
+  <data name="Min_Sens_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Min_Sens_label.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;Min_Sens_label.Name" xml:space="preserve">
+    <value>Min_Sens_label</value>
+  </data>
+  <data name="&gt;&gt;Min_Sens_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Min_Sens_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Min_Sens_label.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Max_Vert_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Max_Vert_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Max_Vert_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 185</value>
+  </data>
+  <data name="Max_Vert_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Max_Vert_label.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Max_Vert_label.Name" xml:space="preserve">
+    <value>Max_Vert_label</value>
+  </data>
+  <data name="&gt;&gt;Max_Vert_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Max_Vert_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Max_Vert_label.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Min_Vert_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Min_Vert_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Min_Vert_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 187</value>
+  </data>
+  <data name="Min_Vert_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Min_Vert_label.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Min_Vert_label.Name" xml:space="preserve">
+    <value>Min_Vert_label</value>
+  </data>
+  <data name="&gt;&gt;Min_Vert_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Min_Vert_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Min_Vert_label.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Max_Hor_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Max_Hor_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Max_Hor_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 54</value>
+  </data>
+  <data name="Max_Hor_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Max_Hor_label.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Max_Hor_label.Name" xml:space="preserve">
+    <value>Max_Hor_label</value>
+  </data>
+  <data name="&gt;&gt;Max_Hor_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Max_Hor_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Max_Hor_label.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Min_Hor_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Min_Hor_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Min_Hor_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 54</value>
+  </data>
+  <data name="Min_Hor_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Min_Hor_label.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Min_Hor_label.Name" xml:space="preserve">
+    <value>Min_Hor_label</value>
+  </data>
+  <data name="&gt;&gt;Min_Hor_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Min_Hor_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Min_Hor_label.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Vert_vector_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Vert_vector_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Vert_vector_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 169</value>
+  </data>
+  <data name="Vert_vector_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Vert_vector_label.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Vert_vector_label.Name" xml:space="preserve">
+    <value>Vert_vector_label</value>
+  </data>
+  <data name="&gt;&gt;Vert_vector_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Vert_vector_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Vert_vector_label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Smooth_count_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Smooth_count_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Smooth_count_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 233</value>
+  </data>
+  <data name="Smooth_count_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Smooth_count_label.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Smooth_count_label.Name" xml:space="preserve">
+    <value>Smooth_count_label</value>
+  </data>
+  <data name="&gt;&gt;Smooth_count_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Smooth_count_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Smooth_count_label.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Sens_count_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sens_count_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sens_count_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 297</value>
+  </data>
+  <data name="Sens_count_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Sens_count_label.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Sens_count_label.Name" xml:space="preserve">
+    <value>Sens_count_label</value>
+  </data>
+  <data name="&gt;&gt;Sens_count_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sens_count_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Sens_count_label.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Hor_vector_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hor_vector_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Hor_vector_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 38</value>
+  </data>
+  <data name="Hor_vector_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="Hor_vector_label.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Hor_vector_label.Name" xml:space="preserve">
+    <value>Hor_vector_label</value>
+  </data>
+  <data name="&gt;&gt;Hor_vector_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hor_vector_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Hor_vector_label.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Sens_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sens_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sens_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 265</value>
+  </data>
+  <data name="Sens_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 13</value>
+  </data>
+  <data name="Sens_label.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Sens_label.Text" xml:space="preserve">
+    <value>Чувствительность (сек.)</value>
+  </data>
+  <data name="&gt;&gt;Sens_label.Name" xml:space="preserve">
+    <value>Sens_label</value>
+  </data>
+  <data name="&gt;&gt;Sens_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sens_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Sens_label.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Vert_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Vert_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Vert_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 137</value>
+  </data>
+  <data name="Vert_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 13</value>
+  </data>
+  <data name="Vert_label.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Vert_label.Text" xml:space="preserve">
+    <value>Вертикаль - Наклон (град.)</value>
+  </data>
+  <data name="&gt;&gt;Vert_label.Name" xml:space="preserve">
+    <value>Vert_label</value>
+  </data>
+  <data name="&gt;&gt;Vert_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Vert_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Vert_label.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Hor_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hor_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Hor_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="Hor_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 13</value>
+  </data>
+  <data name="Hor_label.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Hor_label.Text" xml:space="preserve">
+    <value>Горизонталь - Поворот (град.)</value>
+  </data>
+  <data name="&gt;&gt;Hor_label.Name" xml:space="preserve">
+    <value>Hor_label</value>
+  </data>
+  <data name="&gt;&gt;Hor_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hor_label.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Hor_label.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Reset_Settings_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Reset_Settings_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 347</value>
+  </data>
+  <data name="Reset_Settings_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 45</value>
+  </data>
+  <data name="Reset_Settings_button.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Reset_Settings_button.Text" xml:space="preserve">
+    <value>Настройки по умолчанию</value>
+  </data>
+  <data name="&gt;&gt;Reset_Settings_button.Name" xml:space="preserve">
+    <value>Reset_Settings_button</value>
+  </data>
+  <data name="&gt;&gt;Reset_Settings_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Reset_Settings_button.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Reset_Settings_button.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Sens_trackBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sens_trackBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 265</value>
+  </data>
+  <data name="Sens_trackBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 45</value>
+  </data>
+  <data name="Sens_trackBar.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Sens_trackBar.Name" xml:space="preserve">
+    <value>Sens_trackBar</value>
+  </data>
+  <data name="&gt;&gt;Sens_trackBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sens_trackBar.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Sens_trackBar.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Vert_trackBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Vert_trackBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 137</value>
+  </data>
+  <data name="Vert_trackBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 45</value>
+  </data>
+  <data name="Vert_trackBar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Vert_trackBar.Name" xml:space="preserve">
+    <value>Vert_trackBar</value>
+  </data>
+  <data name="&gt;&gt;Vert_trackBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Vert_trackBar.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Vert_trackBar.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Hor_trackBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Hor_trackBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 6</value>
+  </data>
+  <data name="Hor_trackBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 45</value>
+  </data>
+  <data name="Hor_trackBar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Hor_trackBar.Name" xml:space="preserve">
+    <value>Hor_trackBar</value>
+  </data>
+  <data name="&gt;&gt;Hor_trackBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hor_trackBar.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Hor_trackBar.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Reestr_checkBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Reestr_checkBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Reestr_checkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 347</value>
+  </data>
+  <data name="Reestr_checkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 17</value>
+  </data>
+  <data name="Reestr_checkBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Reestr_checkBox.Text" xml:space="preserve">
+    <value>Сохранять положение дисплея после перезагрузки</value>
+  </data>
+  <data name="&gt;&gt;Reestr_checkBox.Name" xml:space="preserve">
+    <value>Reestr_checkBox</value>
+  </data>
+  <data name="&gt;&gt;Reestr_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Reestr_checkBox.Parent" xml:space="preserve">
+    <value>Settings_tabPage</value>
+  </data>
+  <data name="&gt;&gt;Reestr_checkBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;GPSTextBox.Name" xml:space="preserve">
+    <value>GPSTextBox</value>
+  </data>
+  <data name="&gt;&gt;GPSTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSTextBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;GPSTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 398</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>GPS</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>Control_tabPage</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GPSTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GPSTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 65</value>
+  </data>
+  <data name="GPSTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GPSTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="GPSTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 333</value>
+  </data>
+  <data name="GPSTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GPSTextBox.Name" xml:space="preserve">
+    <value>GPSTextBox</value>
+  </data>
+  <data name="&gt;&gt;GPSTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSTextBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;GPSTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GPSPortComboBox.Name" xml:space="preserve">
+    <value>GPSPortComboBox</value>
+  </data>
+  <data name="&gt;&gt;GPSPortComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSPortComboBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;GPSPortComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GPSOffRadioButton.Name" xml:space="preserve">
+    <value>GPSOffRadioButton</value>
+  </data>
+  <data name="&gt;&gt;GPSOffRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSOffRadioButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;GPSOffRadioButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ControlPortСomboBox.Name" xml:space="preserve">
+    <value>ControlPortСomboBox</value>
+  </data>
+  <data name="&gt;&gt;ControlPortСomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ControlPortСomboBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;ControlPortСomboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GPSPortButton.Name" xml:space="preserve">
+    <value>GPSPortButton</value>
+  </data>
+  <data name="&gt;&gt;GPSPortButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSPortButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;GPSPortButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GPSOnRadioButton.Name" xml:space="preserve">
+    <value>GPSOnRadioButton</value>
+  </data>
+  <data name="&gt;&gt;GPSOnRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSOnRadioButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;GPSOnRadioButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 65</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Управление GPS</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GPSPortComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 40</value>
+  </data>
+  <data name="GPSPortComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 21</value>
+  </data>
+  <data name="GPSPortComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GPSPortComboBox.Name" xml:space="preserve">
+    <value>GPSPortComboBox</value>
+  </data>
+  <data name="&gt;&gt;GPSPortComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSPortComboBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;GPSPortComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 21</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Порт управления</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GPSOffRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GPSOffRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GPSOffRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 44</value>
+  </data>
+  <data name="GPSOffRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="GPSOffRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GPSOffRadioButton.Text" xml:space="preserve">
+    <value>Выключить GPS</value>
+  </data>
+  <data name="&gt;&gt;GPSOffRadioButton.Name" xml:space="preserve">
+    <value>GPSOffRadioButton</value>
+  </data>
+  <data name="&gt;&gt;GPSOffRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSOffRadioButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;GPSOffRadioButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ControlPortСomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 17</value>
+  </data>
+  <data name="ControlPortСomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 21</value>
+  </data>
+  <data name="ControlPortСomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ControlPortСomboBox.Name" xml:space="preserve">
+    <value>ControlPortСomboBox</value>
+  </data>
+  <data name="&gt;&gt;ControlPortСomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ControlPortСomboBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;ControlPortСomboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GPSPortButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GPSPortButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 38</value>
+  </data>
+  <data name="GPSPortButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 23</value>
+  </data>
+  <data name="GPSPortButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GPSPortButton.Text" xml:space="preserve">
+    <value>Слушать порт</value>
+  </data>
+  <data name="&gt;&gt;GPSPortButton.Name" xml:space="preserve">
+    <value>GPSPortButton</value>
+  </data>
+  <data name="&gt;&gt;GPSPortButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSPortButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;GPSPortButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GPSOnRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GPSOnRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GPSOnRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="GPSOnRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="GPSOnRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GPSOnRadioButton.Text" xml:space="preserve">
+    <value>Включить GPS</value>
+  </data>
+  <data name="&gt;&gt;GPSOnRadioButton.Name" xml:space="preserve">
+    <value>GPSOnRadioButton</value>
+  </data>
+  <data name="&gt;&gt;GPSOnRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSOnRadioButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;GPSOnRadioButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>130, 17</value>
+  </metadata>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 110</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAGAAAABgAAAAAAAAAAAA
+        AABbzThbzThbzThbzThbzTheyUBvp21skHpignVjk2xawEFbzThbzThbzThbzThbzThbzThbzThbzThb
+        zThbzThagV4+R1IsMzwgJi0mLTM7XUZbzThbzThbzThbzThbzThbzThbzThbzThbzThUtTghJy4ZHSEX
+        Gh4SFBYOExgOExdQszVbzThbzThbzThbzThbzThbzThbzThbzThKoTMgKDE0P00uOEUvPUwfLT8PGSJJ
+        ojNbzThbzThbzThbzThbzThbzThbzThbzThayDhMWmVte4xmdohVbIFBWG8dMT5WwTZbzThbzThbzThb
+        zThbzThbzThbzThbzThbzThyl36KmamHm65jfZRQb4g6dE5bzThbzThbzThbzThbzThbzThbzThbzThb
+        zThbzTh8tX2YqbmHpLltj6hYfJdRrUVbzThbzThbzThbzThbzThbzThbzThbzThbzThbzThkt1N1g5Ff
+        bX5MXnQ3TGNZxzlbzThbzThbzThbzThbzThbzThbzThbzThbzThbzThdxUFseYdgaXhJVGc4VFhbzThb
+        zThbzThbzThbzThbzThbzThbzThbzThbzThUxUNEtF1HfJZIepYxY4Uva3JQwUZbzThbzThbzThbzThb
+        zThbzThbzTg8lFAYSVkVQHJLUXVBTnYiQHEaP28NLV4FLGcOSXAug19VwzxbzThbzThbzThbzTgULjgG
+        ECEGESEHEiMKFCgMGTAIFSsFDyEFDx4DDR8DDzAaRkJbzThbzThbzThbzTg5ezMIEyIGESAHESAGESEG
+        ESEFEB8EDx4FDhsEDBYIERk6ejhbzThbzThbzThbzThbzDgyZj0JFSQGESAGER8GEB8FDx0EDhwEDRkG
+        DhgrWDFbzDhbzThbzThbzThbzThbzThayjo+eUsXKDoKFSQGER4FDxwFDxoIEh4oUzFZxzlbzThbzThb
+        zThbzThbzThbzThbzThbzThVuEBChEkzZUYsWUAwZTlHnDtbzThbzThbzThbzThbzTgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="notifyIcon1.Text" xml:space="preserve">
+    <value>Автоматический поворот дисплея</value>
+  </data>
+  <data name="notifyIcon1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Size_toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Black, 9pt, style=Bold</value>
+  </data>
+  <data name="Size_toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="Size_toolStripMenuItem.Text" xml:space="preserve">
+    <value>Развернуть</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 6</value>
+  </data>
+  <data name="GPS_toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="GPS_toolStripMenuItem.Text" xml:space="preserve">
+    <value>Включить GPS</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 6</value>
+  </data>
+  <data name="About_toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="About_toolStripMenuItem.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 6</value>
+  </data>
+  <data name="Exit_toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="Exit_toolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>285, 17</value>
+  </metadata>
+  <metadata name="ControlInterSerialPort.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>372, 17</value>
+  </metadata>
+  <metadata name="GPSInterSerialPort.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>542, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>89</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>632, 424</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAGAAAABgAAAAAAAAAAAA
+        AABbzThbzThbzThbzThbzTheyUBvp21skHpignVjk2xawEFbzThbzThbzThbzThbzThbzThbzThbzThb
+        zThbzThagV4+R1IsMzwgJi0mLTM7XUZbzThbzThbzThbzThbzThbzThbzThbzThbzThUtTghJy4ZHSEX
+        Gh4SFBYOExgOExdQszVbzThbzThbzThbzThbzThbzThbzThbzThKoTMgKDE0P00uOEUvPUwfLT8PGSJJ
+        ojNbzThbzThbzThbzThbzThbzThbzThbzThayDhMWmVte4xmdohVbIFBWG8dMT5WwTZbzThbzThbzThb
+        zThbzThbzThbzThbzThbzThyl36KmamHm65jfZRQb4g6dE5bzThbzThbzThbzThbzThbzThbzThbzThb
+        zThbzTh8tX2YqbmHpLltj6hYfJdRrUVbzThbzThbzThbzThbzThbzThbzThbzThbzThbzThkt1N1g5Ff
+        bX5MXnQ3TGNZxzlbzThbzThbzThbzThbzThbzThbzThbzThbzThbzThdxUFseYdgaXhJVGc4VFhbzThb
+        zThbzThbzThbzThbzThbzThbzThbzThbzThUxUNEtF1HfJZIepYxY4Uva3JQwUZbzThbzThbzThbzThb
+        zThbzThbzTg8lFAYSVkVQHJLUXVBTnYiQHEaP28NLV4FLGcOSXAug19VwzxbzThbzThbzThbzTgULjgG
+        ECEGESEHEiMKFCgMGTAIFSsFDyEFDx4DDR8DDzAaRkJbzThbzThbzThbzTg5ezMIEyIGESAHESAGESEG
+        ESEFEB8EDx4FDhsEDBYIERk6ejhbzThbzThbzThbzThbzDgyZj0JFSQGESAGER8GEB8FDx0EDhwEDRkG
+        DhgrWDFbzDhbzThbzThbzThbzThbzThayjo+eUsXKDoKFSQGER4FDxwFDxoIEh4oUzFZxzlbzThbzThb
+        zThbzThbzThbzThbzThbzThVuEBChEkzZUYsWUAwZTlHnDtbzThbzThbzThbzThbzTgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Автоматический поворот дисплея для ACER ICONIA TAB</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon1.Name" xml:space="preserve">
+    <value>notifyIcon1</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Size_toolStripMenuItem.Name" xml:space="preserve">
+    <value>Size_toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;Size_toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPS_toolStripMenuItem.Name" xml:space="preserve">
+    <value>GPS_toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;GPS_toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;About_toolStripMenuItem.Name" xml:space="preserve">
+    <value>About_toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;About_toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Exit_toolStripMenuItem.Name" xml:space="preserve">
+    <value>Exit_toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;Exit_toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ControlInterSerialPort.Name" xml:space="preserve">
+    <value>ControlInterSerialPort</value>
+  </data>
+  <data name="&gt;&gt;ControlInterSerialPort.Type" xml:space="preserve">
+    <value>System.IO.Ports.SerialPort, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GPSInterSerialPort.Name" xml:space="preserve">
+    <value>GPSInterSerialPort</value>
+  </data>
+  <data name="&gt;&gt;GPSInterSerialPort.Type" xml:space="preserve">
+    <value>System.IO.Ports.SerialPort, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
